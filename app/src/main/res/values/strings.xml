@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UIAutomatorTest</string>
+    <string name="menu_news">消息</string>
+    <string name="menu_add">发现</string>
+    <string name="menu_me">我</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="news_fragment">news</string>
+    <string name="discover_fragment">discover</string>
+    <string name="me_fragment">me</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

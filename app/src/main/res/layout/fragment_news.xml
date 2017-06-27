@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yu.uiautomatortest.module.main.fragment.NewsFragment">
+
+    <TextView
+        android:id="@+id/tv_news"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/news_fragment"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp"/>
+
+</FrameLayout>

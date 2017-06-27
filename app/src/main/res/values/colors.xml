@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EA6F5A</color>
+    <color name="colorPrimaryDark">#E46149</color>
+    <color name="colorAccent">#E46149</color>
+
+    <!-- 底部导航栏 -->
+    <color name="bottom_checked">#E46149</color>
+    <color name="bottom_unchecked">#757575</color>
+
+    <!--Tab标签字体颜色-->
+    <color name="tab_text_color">#757575</color>
+    <color name="tab_selected_text_color">#E46149</color>
+    <color name="tab_indicator_color">#E46149</color>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_news"
+        android:title="@string/menu_news"
+        android:icon="@mipmap/news" />
+    <item android:id="@+id/action_discover"
+        android:title="@string/menu_add"
+        android:icon="@mipmap/add" />
+    <item android:id="@+id/action_me"
+        android:title="@string/menu_me"
+        android:icon="@mipmap/me" />
+</menu>

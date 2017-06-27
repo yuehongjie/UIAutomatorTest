@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.yu.uiautomatortest.module.main.fragment.NewsFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_discover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/discover_fragment"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp"
+        android:visibility="gone"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_discover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="2dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        app:tabGravity="center"
+        app:tabMode="scrollable"
+        app:tabTextAppearance="@style/TabTextAppearance"
+        app:tabTextColor="@color/tab_text_color"
+        app:tabIndicatorColor="@color/tab_indicator_color"
+        app:tabSelectedTextColor="@color/tab_selected_text_color"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@drawable/shape_shadow_down"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_discover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
